@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Serif:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.encabezado {
+    background-color: orangered;
+}
+
+.encabezado-img{
+    width: 5%;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.nav {
+    display: inline-block;
+    width: 80%;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar {
+    list-style: none;
+    text-align: right;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'PT Serif', serif; 
+    margin-right: 10px;
+}
+
+.contenedor-texto {
+    display: inline;
+    font-size: 2.0rem;
+    font-family: 'Lora', serif;
+}
+
+.img-main {
+    border: 5px dashed grey;
+}
+
+.titulo-principal {
+    font-family: 'Lora', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    
+}
+
+.pie-de-pagina {
+    background-color: orangered;
+}
+
+.pie-de-pagina p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datos {
+    font-family: 'Noto Serif', serif;
+}
+
+.texto-datos {
+    font-family: 'PT Serif', serif;
+}
+
+.redes {
+    font-family: 'Noto Serif', serif;
+}
